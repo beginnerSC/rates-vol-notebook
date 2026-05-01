@@ -23,7 +23,7 @@ if "%year%"=="" (
 set "FINAL_DATE=%year%-%month%-%day%T%COMMIT_TIME%%TZ_OFFSET%"
 
 :: backup to Google Drive
-copy /Y "docs\rates.ipynb" "D:\google_drive\"
+copy /Y "rates_vol_modeling_overview.ipynb" "D:\google_drive\"
 
 :: commit and push
 set GIT_AUTHOR_DATE=%FINAL_DATE%
